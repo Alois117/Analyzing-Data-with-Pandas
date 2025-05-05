@@ -29,11 +29,10 @@ This project performs a comprehensive analysis of the Breast Cancer Wisconsin (D
   - ucimlrepo
 
 **Install with:**
-```bash
 pip install pandas numpy matplotlib seaborn ucimlrepo
 
-**Usage**
-**Run the analysis script:**
+Usage
+Run the analysis script:
 python Breast_cancer.py
 The script will:
 
@@ -54,7 +53,7 @@ Scatter Plot: With separate regression lines for each diagnosis type
 
 Heatmap: Color-coded correlation matrix of all numerical features
 
-**Key Findings**
+Key Findings
 Malignant tumors consistently show higher values across most features
 
 The largest differences appear in concave points measurements
@@ -63,11 +62,11 @@ Radius, perimeter and area features are strongly correlated
 
 Texture features show less separation between tumor types
 
-**License**
+License
 This project is open source and available under the MIT License
 
 This complete version will generate all five visualizations in sequence. Each visualization will appear in its own window - you'll need to close each one to see the next. The visualizations use the correct column names from your dataset (radius1, texture1, etc.) and provide clear insights into the differences between benign and malignant tumors.
 
-**Acknowledgments**
+Acknowledgments
 Data sourced from the UCI Machine Learning Repository:
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
