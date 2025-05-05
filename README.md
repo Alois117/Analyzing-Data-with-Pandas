@@ -1,69 +1,69 @@
-🩺 Breast Cancer Wisconsin Dataset Analysis
-📊 Complete Data Analysis with Visualizations
-This project performs a comprehensive analysis of the Breast Cancer Wisconsin (Diagnostic) Dataset, including five different visualizations to explore patterns and relationships in the data.
+🧠 Breast Cancer Wisconsin Dataset Analysis
+📊 Overview
+This project performs a comprehensive analysis of the Breast Cancer Wisconsin (Diagnostic) dataset fetched directly from the UCI Machine Learning Repository using the ucimlrepo Python package. The analysis includes data exploration, statistical analysis, and visualization to help understand patterns between benign and malignant tumors.
 
-🚀 Features
-✅ Complete Data Analysis Pipeline
-Data loading and cleaning
+✅ Features
+Data Loading & Cleaning: Dataset is loaded via ucimlrepo and checked for missing values.
 
-Statistical analysis
+Exploratory Data Analysis: Descriptive statistics and group-wise comparisons by diagnosis.
 
-Visualization generation
+Data Visualization: Includes the following plots:
 
-📈 Five Interactive Visualizations
-Line Chart – Shows tumor radius trends across samples
+Line Chart: Tumor radius trends across samples.
 
-Bar Chart – Compares key features between benign and malignant tumors
+Bar Chart: Comparison of key features by tumor type.
 
-Histogram – Displays distribution of tumor areas by diagnosis
+Histogram: Distribution of tumor areas.
 
-Scatter Plot – With regression lines showing radius vs. texture relationship
+Scatter Plot: Relationship between radius and texture with diagnosis hue.
 
-Correlation Heatmap – Visualizes relationships between all numerical features
+Correlation Heatmap: Relationship among all numerical features.
 
-🛠️ Requirements
+📦 Requirements
 Python 3.6+
 
 Required packages:
+
 pip install pandas numpy matplotlib seaborn ucimlrepo
+🛠️ Installation & Usage
+Clone the repository:
 
-📂 Usage
-Run the analysis script:
-python Breast_cancer.py
+git clone https://github.com/Alois117/Analyzing-Data-with-Pandas.git
+Run the script:
 
+python breast_cancer_analysis.py
 The script will:
 
 Load and explore the dataset
 
-Perform statistical analysis
+Print summary statistics
 
-Generate all five visualizations in sequence
+Generate 5 interactive visualizations sequentially
 
-🖼️ Visualization Details
-Line Chart – Tumor radius variation across the first 50 samples
+📈 Visualization Details
+Line Chart: Displays how tumor radius varies across the first 50 samples
 
-Bar Chart – Mean values of radius, texture, and area by tumor type
+Bar Chart: Mean values of radius, texture, and area for benign vs malignant cases
 
-Histogram – Frequency distribution of tumor areas with KDE overlay
+Histogram: Frequency distribution of tumor areas with KDE overlay
 
-Scatter Plot – Separate regression lines for each diagnosis type (radius vs. texture)
+Scatter Plot: Radius vs. texture with regression lines by diagnosis
 
-Heatmap – Color-coded correlation matrix of all numerical features
+Heatmap: Color-coded matrix showing feature correlations
 
-🔍 Key Findings
-Malignant tumors consistently show higher values across most features
+🧪 Key Findings
+Malignant tumors consistently have higher values in most metrics
 
-Concave points measurements show the most significant differences
+Largest differences observed in concave points
 
 Radius, perimeter, and area features are strongly correlated
 
-Texture features show less separation between tumor types
+Texture values are less distinct across tumor types
 
-📄 License
+📚 Acknowledgments
+Dataset sourced from the UCI Machine Learning Repository
+
+Accessed via the ucimlrepo Python package
+
+📝 License
 This project is open source and available under the MIT License.
-
-This complete version will generate all five visualizations in sequence. Each visualization will appear in its own window - you'll need to close each one to see the next. The visualizations use the correct column names from your dataset (radius1, texture1, etc.) and provide clear insights into the differences between benign and malignant tumors.
-
-🙏 Acknowledgments
-Dataset sourced from the UCI Machine Learning Repository:
-https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
